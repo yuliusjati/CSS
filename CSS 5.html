@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    .container{
+      width: 50%;
+      height: 200px;
+      averflow: auto;
+      margin-left: :0 auto;
+    }
+    .static{ position: static; border: 2px solid green; }
+    .relative{
+      position: relative;
+      border: 2px solid red;
+      left: 20px;
+      bottom: 0;
+    }
+    .absolute{ position: absolute; border: 2px solid blue; left: 20px; bottom: 40px; }
+    .fixed{ position: fixed; border: 2px solid black; bottom: 0; right: 0; }
+    .sticky{
+      position: sticky;
+      border: 2px solid yellow;
+      top: 0;
+      left: 20px;
+      background: darkblue;
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <p class="sticky">ini adalah contoh dari posisi sticky0</p>
+      <p class="static"><b>ini adalah contoh dari position static</b><br>
+      Tegap bak tentara. Hope berjalan keluar dari pelataran kampus. Rambut sedikit gondrong, penampilan yang sesuka hati, ia berjalan dengan membusungkan dada. Di depan gerbang kampus, ia melambai ke salah satu angkot yang melintas. “Jleg…”, kakinya menatap masuk ke angkutan kota berwarna biru menuju terminal. “Kiri bang…”, sebelum sampai di terminal ia segera menghentikan angkot, berjalan melewati halte yang biasa digunakan orang untuk menunggu bis menuju ke kota-nya.</p>
+      <p class="relative"><b>ini adalah contoh dari position relative</b><br>
+        Senja memerah. Hampir larut Hope sampai ke kampung halaman. Menenteng tas di punggung. Membawa beberapa buku di tangan, Hope berjalan menuju rumah. “Dari mana Hope, sore begini baru pulang?” “Biasalah pakde, dari kampus. Kuliah…” “O… kuliah ya sekarang…” “Iya pakde…” Hope, seorang anak laki-laki satu-satunya dari buruh petani menjejakkan kaki tanpa gamang. Sesekali terlihat senyum tipis menyembul dari bibirnya yang tebal. Jelas sekali raut muka cerah dan semangat membara di dada-nya.</p>
+      <p class="absolute"><b>ini adalah contoh dari position absolute</b><br>
+      “Pulang…, pulang… sudah sore…”, Hope mengayunkan tangannya menyapa beberapa anak sebaya yang ia lewati. “Oih Hope, kuliah ya… sampai sore begini ya…” “Ya, namanya juga mahasiswa, ya beginilah…” ucap Hope dengan bangga. Minggu pertama kuliah menjadi minggu yang penuh kebahagiaan bagi putra pak Joko itu. Meski perutnya kosong seharian tidak makan namun ia selalu bisa bersemangat, mengatakan kepada orang yang ia temui bahwa ia telah kuliah.</p>
+      <p class="fixed">ini adalah contoh dari position fixed</p>
+    </div>
+  </body>
+</html>
